@@ -1,271 +1,157 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+background-color:#F0E8C6;
+color:#000000;
+margin:0px;
+padding:0px;
+text-align:center;
 }
-
-a {
-  text-decoration: none;
+#outer {
+background-color:#ffffff;
+margin:0px auto 0px auto;
+width:850px;
+font-size:16px;
+border-width:1px;
+border-style: solid;
+border-color: #999999;
 }
-
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+#header {
+padding:15px 0px 0px 38px;
+height:77px;
+text-align:left;
+background-color:#FCFAF0;
 }
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(top.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
+#content {
+float:left;
+width:578px;
 }
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
+.inner {
+margin:0px 10px 0px 10px;
+padding:7px 5px 0px 20px;
+text-align:left;
 }
-
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 16px;
-  margin-bottom: 40px;
+#right {
+color:#676767;
+font-size:13px;
+font-weight:normal;
+width:270px;
+float:left;
+text-align:left;
+padding:17px 0px 0px 0px;
 }
-
-.btn-wrapper {
-  text-align: center;
+.right-title {
+font-size:13px;
+margin:0px 26px 0px 0px;
+padding:5px 10px 5px 20px;
+font-weight:bold;
+background-color:#C4F0EF;
+color:#666666;
+text-align:left;
+border-top: 1px solid #C8C8C8;
+border-right: 1px solid #C8C8C8;
+border-left: 1px solid #C8C8C8;
 }
-
-.btn-wrapper p {
-  margin-bottom: 20px;
+.link {
+text-align: left;
+margin:0px 26px 10px 0px;
+padding:10px 8px 10px 13px;
+line-height:170%;
+border: 1px solid #c7c7c7;
 }
-
-.signup {
-  background-color: #239b76;
+.link a{
+font-weight:normal;
+font-size:13px;
+color:#003366;
+text-decoration:none;
 }
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
+.link a:hover{
+text-decoration:underline;
 }
-
-.twitter {
-  background-color: #55acee;
+ul {
+margin: 0 0 0 1em;
+padding: 0;
 }
-
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
+li {
+list-style:disk; 
 }
-
-.btn:hover {
-  opacity: 1;
+P {
+margin:1em 0 1em 0;
+line-height:150%;
 }
-
-.fa {
-  margin-right: 5px;
+img{
+border:0px;
 }
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+hr {
+border-width: 1px 0px 0px 0px;
+border-style: solid;
+border-color: #cccccc;
+height: 1px;
 }
-
-.logo {
-  width: 124px;
-  margin-top: 20px;
+a{
+font-weight:normal;
+border-bottom-width: 1px;
+border-bottom-color: #CCCCCC;
+color: #003366;
 }
-
-.header-left {
-  float: left;
+h1 {
+font-weight:bold;
+text-align:left;
+color:#000000;
+font-size:18px;
+margin:0px;
+padding:7px 0px 0px 0px;
 }
-
-.header-right {
-  float: right;
-  margin-right: -25px;
+h1 a{
+font-weight:bold;
+color:#357109;
+text-decoration:none;
 }
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+h1 a:hover{
+text-decoration:underline;
 }
-
-.header-right a:hover {
-  background-color: rgba(255,255,255,0.3);
+h2 {
+font-size:16px;
+color: #000000;
+margin-left:-5px;
+margin:10px 0px 0px -4px;
+padding:6px 0px 6px 9px;
+background-color:#E7F5FD;
+border: 1px solid #C7DBE5;
 }
-
-.lesson-wrapper {
-  height: 580px;
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+h2 a{
+font-weight:bold;
+text-decoration: none;
+color:#265699;
 }
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+h3 {
+font-size:16px;
+color: #000000;
+padding-left: 5px;
 }
-
-.heading h2 {
-  font-weight: normal;
+h3 a{
+text-decoration: none;
+color:#265699;
 }
-
-.lesson {
-  float: left;
-  width: 25%;
+h4 {
+font-size:16px;
+color: #000000;
+padding-left: 5px;
 }
-
-.lesson-icon {
-  position: relative;
+h4 a{
+text-decoration: none;
+color:#265699;
 }
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
+#footer {
+color:#666666;
+font-size:12px;
+height:70px;
+clear:left;
 }
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
+.pagetop {
+padding-right:35px;
+text-align:right;
 }
-
-.heading h3 {
-  font-weight: normal;
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0px 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-footer img {
-  width: 125px;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
-}
-
-.clear {
-  clear: left;
-}
-
-@media all and (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-
-  .lesson-wrapper {
-    height: 990px;
-  }
-
-  footer {
-    text-align: center;
-  }
-}
-
-@media all and (max-width: 750px) {
-  .top-wrapper h1 {
-    font-size: 32px;
-  }
-
-  .heading h2 {
-    font-size: 20px;
-  }
-}
-
-@media all and (max-width: 670px) {
-  .header-right {
-    display: none;
-  }
-
-  .menu-icon {
-    display: block;
-  }
-
-  .top-wrapper .btn {
-    width: 100%;
-  }
-
-  .twitter {
-    margin-top: 10px;
-  }
-
-  .top-wrapper {
-    text-align: left;
-  }
-
-  .top-wrapper h1 {
-    font-size: 24px;
-  }
-
-  .top-wrapper p {
-    font-size: 14px;
-  }
-
-  .lesson {
-    width: 100%;
-  }
-
-  .lesson-wrapper {
-    height: 1700px;
-  }
-
-  .message-wrapper .btn {
-    width: 100%;
-  }
+blockquote{
+border:1px solid #ccc;
+padding:5px;
+margin:10px;
 }
