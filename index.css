@@ -117,7 +117,23 @@ margin-right: 20px;
 }
 h4 {
 font-size:16px;
-padding-left: 4px;
+padding:5px 0 3px 4px;
+margin-right: 20px;
+}
+h5 {
+font-size:16px;
+padding:5px 0 3px 4px;
+margin-right: 20px;
+}
+h6 {
+font-size:16px;
+padding:5px 0 3px 4px;
+margin-right: 20px;
+}
+h7 {
+font-size:16px;
+padding:5px 0 3px 4px;
+margin-right: 20px;
 }
 #footer {
 color:#666;
