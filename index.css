@@ -32,7 +32,7 @@ float:left;
 }
 .title {
 height:35px;
-line-height:35px;
+line-height:150%;
 font-size:13px;
 padding:0 0 0 35px;
 margin:0;
